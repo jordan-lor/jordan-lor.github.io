@@ -1,158 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Jordan Lor</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<style>
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+  <title>Jordan Lor</title>
 
-body {
-font-family: Arial, Helvetica, sans-serif;
-background: #ffffff;
-color: #222;
-line-height: 1.7;
-padding: 60px 20px;
-}
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-.container {
-max-width: 760px;
-margin: 0 auto;
-}
+    html {
+      scroll-behavior: smooth;
+    }
 
-h1 {
-font-size: 2.5rem;
-font-weight: 600;
-margin-bottom: 10px;
-}
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #222;
+      line-height: 1.7;
+    }
 
-.subtitle {
-color: #666;
-margin-bottom: 40px;
-font-size: 1rem;
-}
+    /* FIXED HEADER */
 
-section {
-margin-bottom: 50px;
-}
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: white;
+      border-bottom: 1px solid #e5e5e5;
+      z-index: 1000;
+    }
 
-h2 {
-font-size: 1.2rem;
-margin-bottom: 15px;
-border-bottom: 1px solid #ddd;
-padding-bottom: 8px;
-}
+    .header-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 22px 20px;
+    }
 
-p {
-margin-bottom: 15px;
-}
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
 
-a {
-color: #1a73e8;
-text-decoration: none;
-}
+    .subtitle {
+      color: #666;
+      font-size: 1rem;
+    }
 
-a:hover {
-text-decoration: underline;
-}
+    /* MAIN CONTENT */
 
-ul {
-list-style: none;
-padding-left: 0;
-}
+    .container {
+      max-width: 760px;
+      margin: 150px auto 80px auto;
+      padding: 0 20px;
+    }
 
-li {
-margin-bottom: 12px;
-}
+    section {
+      margin-bottom: 60px;
+    }
 
-.footer {
-margin-top: 80px;
-color: #888;
-font-size: 0.9rem;
-}
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 18px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #ddd;
+      font-weight: 600;
+    }
 
-@media (max-width: 600px) {
-body {
-padding: 40px 18px;
-}
+    p {
+      margin-bottom: 16px;
+    }
 
-h1 {
-font-size: 2rem;
-}
-}
-</style>
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 80px;
+      color: #888;
+      font-size: 0.9rem;
+      border-top: 1px solid #eee;
+      padding-top: 25px;
+    }
+
+    /* RESPONSIVE DESIGN */
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .container {
+        margin-top: 140px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-<div class="container">
 
-<header>
-<h1>Jordan Lor</h1>
-<p class="subtitle">
-Graduate Student | Researcher | Educator
-</p>
-</header>
+  <!-- HEADER -->
 
-<section>
-<h2>About</h2>
-<p>
-Welcome to my website. I study education policy,
-artificial intelligence in schools, and educational leadership.
-</p>
+  <header>
+    <div class="header-inner">
+      <h1>Jordan Lor</h1>
 
-<p>
-My research focuses on how school leaders navigate
-emerging technologies and equity challenges in K–12 education.
-</p>
-</section>
+      <p class="subtitle">
+        Graduate Student | Researcher | Educator
+      </p>
+    </div>
+  </header>
 
-<section>
-<h2>Research Interests</h2>
+  <!-- MAIN CONTENT -->
 
-<ul>
-<li>• Educational leadership</li>
-<li>• AI in K–12 education</li>
-<li>• Education policy</li>
-<li>• Rural school systems</li>
-</ul>
-</section>
+  <div class="container">
 
-<section>
-<h2>Publications</h2>
+    <section>
+      <h2>About</h2>
 
-<ul>
-<li>
-Jordan Lor. (2026). <em>Title of your paper.</em>
-</li>
+      <p>
+        Welcome to my academic website. My work focuses on
+        educational leadership, artificial intelligence in K–12
+        education, and education policy.
+      </p>
 
-<li>
-Your Name & Coauthor. (2025).
-<em>Another publication title.</em>
-</li>
-</ul>
-</section>
+      <p>
+        I am interested in how school systems navigate emerging
+        technologies while addressing equity, governance,
+        and leadership challenges.
+      </p>
+    </section>
 
-<section>
-<h2>Contact</h2>
+    <section>
+      <h2>Research Interests</h2>
 
-<p>Email: jordan.lor@fulbrightmail.org</p>
+      <ul>
+        <li>• Educational Leadership</li>
+        <li>• Artificial Intelligence in Education</li>
+        <li>• Education Policy</li>
+        <li>• Rural School Systems</li>
+      </ul>
+    </section>
 
-<p>
-<a href="#">Google Scholar</a> |
-<a href="#">CV</a> |
-<a href="#">GitHub</a>
-</p>
-</section>
+    <section>
+      <h2>Publications</h2>
 
-<div class="footer">
-© 2026 Jordan Lor
-</div>
+      <ul>
+        <li>
+          Lor, J. (2026). <em>Example publication title.</em>
+        </li>
 
-</div>
+        <li>
+          Lor, J., & Smith, A. (2025).
+          <em>Another publication title.</em>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <p>
+        Current projects examine leadership readiness for AI adoption
+        in K–12 schools and the role of policy implementation in
+        educational innovation.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+
+      <p>Email: jordanlor@email.com</p>
+
+      <p>
+        <a href="#">CV</a> |
+        <a href="#">Google Scholar</a> |
+        <a href="#">GitHub</a>
+      </p>
+    </section>
+
+    <div class="footer">
+      © 2026 Jordan Lor
+    </div>
+
+  </div>
+
 </body>
 </html>
